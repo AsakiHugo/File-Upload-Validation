@@ -1,0 +1,16 @@
+package com.kk.fileupload.utils;
+
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+import com.kk.fileupload.dto.ApiResponse;
+
+@RestControllerAdvice
+public class ApiExceptionHandler {
+	
+	@ExceptionHandler
+	public ApiResponse<String> handle() {
+		return null;
+	}
+	
+}

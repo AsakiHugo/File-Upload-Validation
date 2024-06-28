@@ -1,0 +1,29 @@
+package com.kk.fileupload.entity;
+
+import com.kk.fileupload.utils.FileUploadUtils;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Entity
+@NoArgsConstructor
+public class Menu {
+
+	@Id
+	private String id;
+	private String name;
+	private String products;
+	private String description;
+
+	public Menu(String name, String products, String description) {
+		super();
+		this.id = FileUploadUtils.generateKey();
+		this.name = name;
+		this.products = products;
+		this.description = description;
+	}
+
+}

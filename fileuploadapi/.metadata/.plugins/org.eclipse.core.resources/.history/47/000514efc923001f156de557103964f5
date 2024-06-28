@@ -1,0 +1,12 @@
+package com.kk.fileupload.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.kk.fileupload.service.FileUploadService;
+
+public class FileUploadController {
+
+	@Autowired
+	private FileUploadService fileUploadService;
+	
+}

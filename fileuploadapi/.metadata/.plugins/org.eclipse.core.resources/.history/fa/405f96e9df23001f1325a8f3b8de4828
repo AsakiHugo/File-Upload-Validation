@@ -1,0 +1,16 @@
+package com.kk.fileupload.utils;
+
+import java.util.List;
+
+public class ApiException extends RuntimeException {
+
+	private static final long serialVersionUID = 1L;
+	
+	private List<String> messages;
+
+	public ApiException(String message, List<String> messages) {
+		super(message);
+		this.messages = messages;
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.kk.fileupload.utils;
+
+public class FileUploadUtils {
+	
+	public static String generateKey() {
+		return "";
+	}
+
+}

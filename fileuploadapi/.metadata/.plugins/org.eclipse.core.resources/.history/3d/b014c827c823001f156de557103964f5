@@ -1,0 +1,5 @@
+package com.kk.fileupload.entity;
+
+public class Product {
+
+}

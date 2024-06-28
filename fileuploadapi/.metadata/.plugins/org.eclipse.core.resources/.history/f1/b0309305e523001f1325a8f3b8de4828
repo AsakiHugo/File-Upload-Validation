@@ -1,0 +1,16 @@
+package com.kk.fileupload.utils;
+
+import java.util.Random;
+
+public class FileUploadUtils {
+	
+	private static final String DOMAIN = "HUGO";
+	
+	public static String generateKey(String categoryName) {
+		Random random = new Random();
+		String nums = "" + random.nextInt(10) + random.nextInt(10) + random.nextInt(10) + random.nextInt(10) + random.nextInt(10);
+		
+		return DOMAIN + categoryName.toUpperCase() + "-" + ;
+	}
+
+}

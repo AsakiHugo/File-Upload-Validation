@@ -1,0 +1,5 @@
+spring.application.name=fileinputapi
+
+spring.datasource.url=jdbc:mysql://localhost:3600/fullstack_db
+spring.datasource.username=admin
+spring.datasource.password=adminpass

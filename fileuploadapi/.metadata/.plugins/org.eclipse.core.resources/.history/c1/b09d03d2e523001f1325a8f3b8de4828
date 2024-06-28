@@ -1,0 +1,10 @@
+package com.kk.fileupload.utils;
+
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+@RestControllerAdvice
+public class APiExceptionHandler {
+	
+	@Ex
+	
+}

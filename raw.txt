@@ -1,0 +1,9 @@
+Correct
+Fried Chicken, Chicken-Potato-Soap, Lorem Ipsum is simply dummy text of the printing and typesetting industry
+Potato Chip, Potato-Vegetable, Lorem Ipsum is simply dummy text of the printing and typesetting industry
+Ramen, Noodle-Vegetable-Pork, Lorem Ipsum is simply dummy text of the printing and typesetting industry
+
+Incorrect
+Fried Chicken, , Lorem Ipsum is simply dummy text of the printing and typesetting industry
+Potato Chip, Lorem Ipsum is simply dummy text of the printing and typesetting industry
+, Noodle-Vegetable-Pork, Lorem Ipsum is simply dummy text of the printing and typesetting industry

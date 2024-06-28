@@ -1,0 +1,17 @@
+package com.kk.fileupload.controller;
+
+import com.kk.fileupload.entity.QuantitySuffix;
+
+import lombok.Data;
+
+@Data
+public class MenuDetails {
+	
+	private int id;
+	private String categoryName;
+	private String description;
+	private String productName;
+	private int quantity;
+	private QuantitySuffix suffix;
+
+}

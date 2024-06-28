@@ -1,0 +1,26 @@
+package com.kk.fileupload.entity;
+
+import java.util.UUID;
+
+import jakarta.persistence.Id;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+public class Product {
+
+	@Id
+	private int id;
+	private String product;
+	private int quantity;
+	private String quantitySuffix;
+
+	public Product(String product, int quantity, String quantitySuffix) {
+		super();
+		this.product = product;
+		this.quantity = quantity;
+		this.quantitySuffix = quantitySuffix;
+	}
+
+}

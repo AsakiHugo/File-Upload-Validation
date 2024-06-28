@@ -1,0 +1,5 @@
+package com.kk.fileupload.dto;
+
+public class ApiResponse {
+
+}

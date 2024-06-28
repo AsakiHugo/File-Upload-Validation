@@ -1,0 +1,5 @@
+package com.kk.fileupload.utils;
+
+public class ExceptionHandler {
+
+}

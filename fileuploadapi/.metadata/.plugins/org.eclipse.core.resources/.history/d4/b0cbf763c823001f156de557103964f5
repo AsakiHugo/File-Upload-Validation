@@ -1,0 +1,5 @@
+package com.kk.fileupload.entity;
+
+public enum QuantitySuffix {
+	Kg, g, l, ml
+}

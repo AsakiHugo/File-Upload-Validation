@@ -1,0 +1,5 @@
+package com.kk.fileupload.dao;
+
+public interface FileUploadDao {
+
+}

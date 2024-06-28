@@ -1,0 +1,11 @@
+package com.kk.fileupload.utils;
+
+public class FileUploadUtils {
+	
+	private static final String DOMAIN = "HUGO";
+	
+	public static String generateKey(String categoryName) {
+		return DOMAIN + categoryName.toUpperCase();
+	}
+
+}
